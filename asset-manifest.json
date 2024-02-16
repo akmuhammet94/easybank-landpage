@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/easybank-landpage/static/css/main.848321a2.css",
+    "main.js": "/easybank-landpage/static/js/main.5034f04d.js",
+    "index.html": "/easybank-landpage/index.html",
+    "main.848321a2.css.map": "/easybank-landpage/static/css/main.848321a2.css.map",
+    "main.5034f04d.js.map": "/easybank-landpage/static/js/main.5034f04d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.848321a2.css",
+    "static/js/main.5034f04d.js"
+  ]
+}
