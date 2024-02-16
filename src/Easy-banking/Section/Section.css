@@ -1,0 +1,46 @@
+.section {
+    z-index: -9;
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+.section h3 {
+    color: var(--light-blue);
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 18px;
+    color: var(--light-blue);
+    opacity: 0.7;
+}
+
+.section-items {
+    margin-top: 50px;
+    gap: 30px 30px; 
+}
+.section-item {
+    width: 250px;
+}
+.section-item img {
+    margin-bottom: 20px;
+}
+.section-item h3 {
+    font-size: 30px;
+}
+.section-item p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 20px 40px;
+    }
+    .section h3, .section p {
+        text-align: center;
+    }
+    .section-item {
+        width: 100%;
+        text-align: center;
+    }
+}

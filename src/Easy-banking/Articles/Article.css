@@ -1,0 +1,54 @@
+.articles {
+    margin-top: 50px;
+    gap: 20px 20px; 
+}
+.articles h3.head {
+    color: var(--light-blue);
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.article {
+    width: 22%;
+}
+.article h3 {
+    font-size: 16px;
+}
+.article p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.article .author {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    opacity: 0.4;
+}
+.article-image {
+    width: 100%;
+}
+.article-image img {
+    width: 100%;
+    height: 220px;
+}
+@media screen and (max-width: 768px) {
+    .articles h3.head {
+        text-align: center;
+    }
+    .items {
+        align-items: center;
+        justify-content: center;
+    }
+    .article {
+        width: 80%;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .article {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
